@@ -5,10 +5,10 @@ const {
 
 const options = {
   client: {
-    address: 'localhost:3000',
+    address: 'localhost:3001',
   },
   static: [process.cwd(), require('path').resolve('./bin')],
-  port: 3000,
+  port: 3001,
 };
 
 config.plugins = [
